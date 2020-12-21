@@ -15,8 +15,8 @@ import io.flutter.embedding.engine.plugins.shim.ShimPluginRegistry;
 public final class GeneratedPluginRegistrant {
   public static void registerWith(@NonNull FlutterEngine flutterEngine) {
     ShimPluginRegistry shimPluginRegistry = new ShimPluginRegistry(flutterEngine);
-      com.transistorsoft.flutter.backgroundgeolocation.BackgroundGeolocationFirebasePlugin.registerWith(shimPluginRegistry.registrarFor("com.transistorsoft.flutter.backgroundgeolocation.BackgroundGeolocationFirebasePlugin"));
     flutterEngine.getPlugins().add(new com.transistorsoft.flutter.backgroundfetch.BackgroundFetchPlugin());
+      com.transistorsoft.flutter.backgroundgeolocation.BackgroundGeolocationFirebasePlugin.registerWith(shimPluginRegistry.registrarFor("com.transistorsoft.flutter.backgroundgeolocation.BackgroundGeolocationFirebasePlugin"));
     flutterEngine.getPlugins().add(new io.flutter.plugins.firebase.auth.FlutterFirebaseAuthPlugin());
     flutterEngine.getPlugins().add(new io.flutter.plugins.firebase.core.FlutterFirebaseCorePlugin());
       com.applaudsoft.flutter_autofill.FlutterAutofillPlugin.registerWith(shimPluginRegistry.registrarFor("com.applaudsoft.flutter_autofill.FlutterAutofillPlugin"));
