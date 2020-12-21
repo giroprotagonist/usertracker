@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: createMaterialColor(Color(0xff077F7B)),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: isLogin ? Home() : Login(),
+      home: isLogin ? Location() : Login(),
     );
   }
 }
